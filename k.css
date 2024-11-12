@@ -3,10 +3,10 @@ body {
     margin: 0;
 }
 
-header button a:hover {
-    /* cursor: url('../Khrystyna-Trl/source-img/nature.png'), auto; */
+header a:hover {
     cursor: url('./source-img/Untitled2Project.png'), auto;
 }
+
 
 h1{
     text-align: center;
