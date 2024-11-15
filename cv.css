@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(203, 174, 229);
+
+}
+.photo-info{
+    background-color: rgb(192, 250, 250);
+    width: 350px;
+    height: 100%;
+    border: 2px solid blue;
+    margin-right: 15px;
+    
+}
+
+.key-summary{
+    background-color: brown;
+    height: 300px;
+    width: 80%;
+}
+
+.work-experience{
+    background-color: darkslategrey;
+    height: 300px;
+    width: 80%;
+    margin-top: 15px;
+
+}
+
+.photo-cv {
+    width: 290px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.info-k{
+    display: flex;
+    flex-direction: column;
+}
+.birthday-k{
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    font-size: 20px;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
